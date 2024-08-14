@@ -1,4 +1,5 @@
 mkdir Omar
+cd Omar
 touch one.txt two.txt three.txt four.txt
 mkdir BAD
 cd BAD
@@ -8,9 +9,11 @@ mv one.txt /home/osc/Downloads
 cd /home/osc/Downloads
 cp one.txt /home/osc/Downloads/copy.txt
 cd /home/osc/task-1/Omar
-nano two.txt
+nano two.txt    "Omar"
+Ctrl + o
 Ctrl + x
-nano three.txt 
+nano three.txt   "1-hello OSC  2-hello OSC  3-hello OSC  4-hello OSC  5-hello OSC 6-hello OSC 7-hello OSC 8-hello OSC" 
+Ctrl + o
 Ctrl + x
 mv three.txt hello.txt
 rm four.txt
