@@ -1,0 +1,16 @@
+mkdir Omar
+touch one.txt two.txt three.txt four.txt
+mkdir BAD
+cd BAD
+touch bad.txt
+mv one.txt /home/osc/Downloads
+cd /home/osc/Downloads
+cp one.txt /home/osc/Downloads/copy.txt
+cd /home/osc/task-1/Omar
+nano two.txt
+Ctrl + x
+nano three.txt 
+Ctrl + x
+mv three.txt hello.txt
+rm four.txt
+rm -r BAD
