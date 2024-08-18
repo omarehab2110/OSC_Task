@@ -1,0 +1,18 @@
+git config --global user.name "omarehab2110"
+git config --global user.email "amooraomar2005@gmail.com"
+git clone https://github.com/omarehab2110/OSC_Task 
+cd /home/osc/OSC_Task
+mkdir task-2
+touch task-2/greeting.txt
+cd task-2
+echo "hello world" > greeting.txt
+git add .
+git commit -m "Added greeting"
+git checkout -b intro
+echo "I love Git" >> greeting.txt
+git add .
+git commit -m "Added I love Git"
+git checkout main 
+git merge intro
+git tag "v1" -m "version-1 has been realesed"
+git push
