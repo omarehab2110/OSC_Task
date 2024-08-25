@@ -1,0 +1,4 @@
+grep -Eo '[a-z.]+@[a-z]+\.[a-z]+' info.csv | sort | uniq >email.txt
+ps -e -o pid,cmd --sort = cmd | awk 'NR>0'> processes.txt
+
+
